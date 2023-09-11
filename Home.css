@@ -19,7 +19,7 @@ body{
     width: 20%;
     padding: 2%;
     text-align: center;
-    background: linear-gradient(to bottom right,rgb(134, 231, 250),rgb(233, 255, 122));
+    background: linear-gradient(to bottom right,rgb(202, 88, 255),rgb(232, 63, 190));
 }
 a{
     text-decoration: none;
@@ -32,12 +32,12 @@ a{
 .links{
     margin-top: 10%;
     padding: 4% 0 4% 0;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.15) ;
-    background-color: slategray;
+    background-color: rgb(54, 102, 150);
 }
 .links:hover{
-    background: -webkit-linear-gradient(right, transparent 40%, gray 60%);
+    background: -webkit-linear-gradient(left, transparent 40%, rgb(54, 102, 150) 60%);
 }
 .right{
     min-height: 100vh;
@@ -50,8 +50,8 @@ a{
 }
 .product{
     height: 100%;
-    background-color: rgb(230, 230, 230);
-    border-radius: 60px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
     padding: 2%;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
@@ -59,7 +59,7 @@ a{
 .product img{
     height: 95%;
     width: 95%;
-    border-radius: 60px;
+    border-radius: 20px;
     margin-top:5px;
 }
 .product div{

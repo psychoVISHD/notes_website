@@ -29,9 +29,9 @@ function loadproduct(){
     let products;
     if (localStorage.getItem("products")===null) {
         products = [{
-            Url: "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-            desc: "Fujifilm Camera",
-            price: "1000",
+            Url: "https://m.media-amazon.com/images/I/81R6AaKoL8L.jpg",
+            desc: "Stunt Bike",
+            price: "10000",
         }];
     }
     else{
